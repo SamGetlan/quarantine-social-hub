@@ -1,7 +1,11 @@
 <script lang="typescript">
 	export let name: string;
+	// TODO: disable ts(1192) warning in workspace
+	// @ts-ignore
+	import TopAppBar from './components/TopAppBar.svelte';
 </script>
 
+<TopAppBar />
 <main>
 	<h1>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
