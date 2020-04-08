@@ -16,10 +16,13 @@
     "rollup-plugin-terser": "^5.1.2",
     "svelte": "^3.0.0",
     "typescript": "^3.8.3",
+    "postcss": "^7.0.27",
     "svelte-preprocess": "^3.7.1"
   },
   "dependencies": {
+    "@material/drawer": "^5.1.0",
     "@material/icon-button": "^5.1.0",
+    "@material/list": "^5.1.0",
     "@material/top-app-bar": "^5.1.0",
     "sirv-cli": "^0.4.4"
   }
